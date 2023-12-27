@@ -19,7 +19,7 @@ class Heroi {
         if (ataqueHeroi) {
             return `O herói ${this.nome} do ${this.tipo} atacou usando ${ataqueHeroi}`;
         } else {
-            return "Magia falhou!";
+            return "Ataque falhou!";
         }
     }
     
